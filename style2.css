@@ -1,0 +1,99 @@
+.home {
+    color: white;
+    cursor: pointer;
+}
+
+#fileclick {
+    /* background-color: black; */
+    border: 2px solid gray;
+    background-color: white;
+    border-radius: 10px;
+    /* height: 30vh; */
+    width: 15vw;
+    position: absolute;
+    left: 5%;
+    top: 4%;
+    display: none;
+}
+
+#fileclick ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+#fileclick ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#toolbar {
+    /* margin-left: 40%; */
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+#textarea {
+    width: 80%;
+    height: 80vh;
+    margin-left: 10%;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+.buttondocs {
+    /* border: 2px solid black; */
+    display: flex;
+    width: fit-content;
+    position: relative;
+    margin-left: 35vw;
+}
+
+.btn-itm {
+    margin-left: 1vw;
+}
+
+#colorSelector {
+    /* border: 2px solid black; */
+    position: absolute;
+}
+
+.list {
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style: none;
+}
+
+#listitm1 {
+    background-color: black;
+    color: white;
+}
+#listitm2 {
+    background-color: yellow;
+    color: white;
+}
+#listitm3 {
+    background-color: blue;
+    color: white;
+}
+#listitm4 {
+    background-color: green;
+    color: white;
+}
+#listitm5{
+    background-color: orange;
+    color: white;
+}
+#listitm6 {
+    background-color: gray;
+    color: white;
+}
+#listitm7 {
+    background-color: rgb(233, 34, 34);
+    color: white;
+}
+#listitm8 {
+    background-color: violet;
+    color: white;
+}
